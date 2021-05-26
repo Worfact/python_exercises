@@ -18,25 +18,21 @@ def uppercase_test(x):
     for l in x:
         if l.isupper():
             return(True)
-            break
 
 def lowercase_test(x):
     for l in x:
         if l.islower():
             return(True)
-            break
 
 def number_test(x):
     for i in x:
         if i.isnumeric():
             return(True)
-            break
 
 def special_test(x):
     for f in x:
         if x == '$' or '#'or '@':
             return(True)
-            break
 
 def password_test(password_list):
     result_list = []
